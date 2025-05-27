@@ -1,0 +1,69 @@
+openapi: 3.0.3
+info:
+  title: Flashcards API
+  description: API para gerenciar flashcards para aprendizado.
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000/v1
+    description: Servidor local
+paths:
+  /flashcards:
+    post:
+      summary: Cria um novo flashcard
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                front:
+                  type: string
+                  example: "Capital do Brasil?"
+                back:
+                  type: string
+                  example: "Brasília"
+              required:
+                - front
+                - back
+      responses:
+        '201':
+          description: Flashcard criado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Flashcard'
+  /flashcards/{id}:
+    get:
+      summary: Obtém um flashcard por ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Flashcard encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Flashcard'
+components:
+  schemas:
+    Flashcard:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        front:
+          type: string
+          example: "Capital do Brasil?"
+        back:
+          type: string
+          example: "Brasília"
+        createdAt:
+          type: string
+          format: date-time
+          example: "2025-05-27T12:00:00Z"
