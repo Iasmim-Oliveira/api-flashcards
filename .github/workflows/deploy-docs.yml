@@ -1,0 +1,34 @@
+name: Deploy Swagger Documentation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Clona o repositório
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Valida o arquivo Swagger
+      - name: Validate Swagger file
+        uses: swagger-api/validator-action@v1
+        with:
+          file: ./docs/swagger.yaml
+
+      # Gera HTML com Redoc
+      - name: Generate Redoc HTML
+        run: |
+          npm install -g redoc-cli
+          redoc-cli bundle ./docs/swagger.yaml -o ./docs/index.html
+
+      # Hospeda no GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
