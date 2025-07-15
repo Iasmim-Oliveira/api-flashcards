@@ -10,5 +10,4 @@ class Flashcard extends Model
 
     protected $fillable = ['term', 'definition'];
 
-
 }
