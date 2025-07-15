@@ -13,4 +13,9 @@ class UserResponse extends Model
     protected $casts = [
         'is_correct' => 'boolean',
     ];
+
+    public function flashcard()
+    {
+        return $this->belongsTo(Flashcard::class);
+    }
 }
