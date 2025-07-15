@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/service-interurbano-api/tests/Unit" />
         <option value="$PROJECT_DIR$/service-interurbano-api/tests/Feature" />
+        <option value="$PROJECT_DIR$/api-flashcard/tests/Unit" />
+        <option value="$PROJECT_DIR$/api-flashcard/tests/Feature" />
       </list>
     </option>
   </component>

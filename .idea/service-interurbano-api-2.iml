@@ -2,12 +2,135 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/service-interurbano-api/app" isTestSource="false" packagePrefix="App\" />
-      <sourceFolder url="file://$MODULE_DIR$/service-interurbano-api/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
-      <sourceFolder url="file://$MODULE_DIR$/service-interurbano-api/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
-      <sourceFolder url="file://$MODULE_DIR$/service-interurbano-api/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/service-interurbano-api/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/service-interurbano-api/tests/Unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/api-flashcard/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/api-flashcard/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/api-flashcard/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/api-flashcard/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/api-flashcard/tests/Feature" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/api-flashcard/tests/Unit" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/carbonphp/carbon-doctrine-types" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/clue/stream-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/fruitcake/php-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/guzzlehttp/uri-template" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/laravel/pail" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/laravel/pint" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/laravel/prompts" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/league/flysystem-local" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/league/uri" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/league/uri-interfaces" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/nunomaduro/termwind" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/nyholm/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/php-http/client-common" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/php-http/discovery" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/php-http/httplug" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/php-http/message" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/php-http/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/staabm/side-effects-detector" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/options-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/polyfill-uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/typesense/typesense-php" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/api-flashcard/vendor/webmozart/assert" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
