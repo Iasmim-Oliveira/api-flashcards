@@ -13,7 +13,8 @@ WORKDIR /var/www/html
 
 # Permissões para pasta storage e bootstrap
 RUN chown -R 1000:1000 /var/www \
-    && chmod -R 775 /var/www \
-    && chmod -Rf 0777 /var/www/html/storage
+    && chmod -R 775 /var/www
+
+# RUN chmod -Rf 0777 /var/www/storage
 
 RUN chown -R 1000:1000 /var/www/html
